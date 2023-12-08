@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(26, 25, 25, 0.925);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#home {
+    height: 100vh;
+    padding-top: 0;
+}
+
+#home img:nth-child(2) {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    max-width: 500px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10%;
+    padding: 0 20px;
+}
+
+.about-content img {
+    width: 40%;
+    height: 60vh;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 9em;
+    align-self: center;
+}
+
+.about-content div {
+    width: 60%;
+    height: 50vh;
+    margin-top: 2em;
+}
+
+.about-content p {
+    text-align: justify;
+}
+
+.tech-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    background-color: ghostwhite;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+}
+
+.tech-content h2 {
+    margin-left: -20px;
+    color: rgb(black);
+    font-size:xx-large;
+  
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card {
+    width: 30%;
+    margin: 2.66%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card p {
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.card button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.management-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    background-color: white;
+    flex-direction: row;
+    height: 150vh;
+    width: 80%;
+}
+
+.management-content div {
+    width: 70%;
+}
+
+.management-content img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.management-text {
+    padding-right: 2em;
+    text-align: justify;
+}
+
+
+
+
+#contact {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-content div {
+    width: 48%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(48, 48, 48, 0.747);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: white;  
+}
+
+
+
+
+
+
+
+
+
